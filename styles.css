@@ -1,4 +1,25 @@
-h1 {
-    background-color: #3f3cf9;
+* {
+    background-color: #dba3d3;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+ h1 {
+    background-color: #3f3cf9;
+    color: #eff93c;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+li {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#skyr-link {
+    font-size: 24px;
+    color: #eff93c;
+} 
+
+ .blue-bg {
+    font-size: 24px;
+    color: #3f3cf9;
+} 
