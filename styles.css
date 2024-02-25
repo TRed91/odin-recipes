@@ -3,23 +3,51 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
- h1 {
-    background-color: #3f3cf9;
-    color: #eff93c;
+ .title {
+    background-color: #383799;
+    color: #dba3d3;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 3px white
+    
+    
 } 
 
 li {
     font-size: 40px;
     font-weight: 600;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    border: solid 3px white;
+    margin: 5px auto;
+    
 }
 
 #skyr-link {
     font-size: 24px;
-    color: #eff93c;
+    color: #383799;
 } 
 
  .blue-bg {
     font-size: 24px;
-    color: #3f3cf9;
+    color: #383799;
 } 
+
+.list {
+    border: 3px solid #383799;
+    box-sizing: border-box;
+    width: 485px;
+    margin: 20px auto;
+    padding: 30px 0px 30px 40px;
+    background-color: #383799;
+    
+}

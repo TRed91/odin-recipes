@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: beige;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +13,12 @@ h1 {
     color: rgb(21, 83, 18);
     font-size: 50px;
     font-weight: 700;
+    border: solid 2px rgb(21, 83, 18);
+    margin: 10px auto;
+    padding: 10px 0;
+    border-width: 8px;
+    box-sizing: border-box;
+    width: 450px;
 }
 
 .center-align {
@@ -20,4 +30,17 @@ h1 {
     color: beige;
     padding-left: 20px;
     padding-bottom: 3px;
+    margin-bottom: -10px;
+    margin-right: 20em;
+}
+
+.right-border {
+    border-right: solid 5px rgb(21, 83, 18);
+    margin-right: 30em;
+    border-bottom: solid 5px rgb(21, 83, 18);
+}
+
+span {
+    border: solid;
+    display: inline-block;
 }
